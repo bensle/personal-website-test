@@ -37,9 +37,3 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.backtotop {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
