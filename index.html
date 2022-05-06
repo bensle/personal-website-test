@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:ital,wght@1,300&family=Shadows+Into+Light&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="styles.css" />
     <title>Benjamin Scheffler - Web Dev Student</title>
   </head>
@@ -12,7 +21,6 @@
     <header id="home">
       <h1>Benjamin Scheffler</h1>
       <nav class="navigation">
-        <a href="#home" class="button">Home</a>
         <a href="#about" class="button">About me</a>
         <a href="#contact" class="button">Contact</a>
         <a href="#portfolio" class="button">Portfolio</a>
@@ -21,110 +29,152 @@
     </header>
 
     <main>
-      <hr />
-      <section id="about">
-        <h2>About me</h2>
-        <a href="#home" class="button backtotop">Home</a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
-          aperiam expedita distinctio nesciunt commodi nisi, nemo in eveniet,
-          ipsam earum voluptatibus fugiat dolorem accusamus animi voluptatum
-          consequatur ullam vero iusto? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Quaerat dolor est officiis deleniti obcaecati, quos
-          facere asperiores sapiente accusantium similique nostrum esse rem
-          facilis sint illum harum ullam repellendus molestias.
+      <h2>About me</h2>
+      <section id="about" class="about">
+        <!-- <p class="sek1para"> -->
+        <img
+          class="images sek1para"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+        <!-- </p> -->
+
+        <p class="sek1para">
+          Hallo und herzlich willkommen auf meiner ersten Website. Mein Name ist
+          Ben, ich bin 40 Jahre alt und wurde am 20. März 1982 in Ostercappeln
+          geboren. Mit Freundin, Hund und Katze wohne ich im grünen und ruhigen
+          äußersten Bezirk von Köln.
         </p>
+        <p class="sek1para">
+          Nachdem ich die letzten vier Jahre den Einkauf eines mittelständischen
+          Unternehmes geführt habe und schon längere Zeit über eine berufliche
+          Neuorientierung nachgedacht habe, ist nun die Zeit gekommen. Im Mai
+          2022 startete ich mit dem Web Development Bootcamp von
+          <a href="https://neuefische.de">NeueFische</a>.
+        </p>
+        <!-- <p>Auf einen Blick</p>
+        <p>
+          <ul>
+            <li>Date of Birth: 20.03.1982</li>
+            <li>City: Köln</li>
+            <li>Geburtsort: Ostercappeln</li>
+            <li>
+              <a href="mailto:scheffler-benjamin@web.de">Send Email</a>
+            </li>
+            <li><a href="tel:+4917682397601">Mobil</a></li>
+          </ul>
+        </p> -->
+      </section>
+
+      <h2>Kontakt</h2>
+      <section id="contact" class="kontakt">
+        <a class="bkontakt" href="https://www.xing.com/" target="blank"
+          ><img class="linkimg" src="images/XNG.png" alt=""
+        /></a>
+
+        <a class="bkontakt" href="https://de.linkedin.com" target="blank"
+          ><img class="linkimg" src="images/LI-Logo.png" alt=""
+        /></a>
+
+        <a class="bkontakt" href="https://github.com/bensle" target="blank"
+          ><img class="linkimg" src="images/GitHub-Mark-120px-plus.png" alt=""
+        /></a>
+
+        <a class="bkontakt" href="https://codepen.io/your-work/" target="blank"
+          ><img class="linkimg" src="images/codepen.png" alt=""
+        /></a>
+      </section>
+
+      <h2>Portfolio</h2>
+      <section id="portfolio" class="portfolio">
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+        <img
+          class="images2"
+          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+      </section>
+      <h2>Blog/News</h2>
+      <section id="blog" class="blog">
         <ul>
-          <li>Date of Birth: 20.03.1982</li>
-          <li>City: Cologne</li>
           <li>
-            Email: <a href="mailto:scheffler-benjamin@web.de">Send Email</a>
+            <span class="bold">Montag 02.05.2022:</span>Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Odit excepturi similique
+            consequuntur! Id debitis in molestias error suscipit illum, quos
+            inventore deserunt obcaecati vitae optio facilis facere
+            exercitationem corporis quae!
           </li>
-          <li>mobile: xxx</li>
+          <li>
+            <span class="bold">Dienstag 03.05.2022:</span>Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Omnis, exercitationem dolore
+            eaque nesciunt quod delectus, natus officia alias sequi molestiae
+            voluptates iure quidem ut, ad voluptate laborum ab magnam
+            perferendis.
+          </li>
+          <li>
+            <span class="bold">Mittwoch 04.05.2022:</span>Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Veritatis odit sequi dolores
+            laborum, quidem in provident quisquam esse exercitationem facere,
+            earum distinctio dignissimos. Molestiae reprehenderit, nesciunt
+            tenetur quis error ducimus?
+          </li>
+          <li>
+            <span class="bold">Donnerstag 05.05.2022:</span> Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Magnam corrupti id dolores
+            adipisci. Accusantium, optio harum? Dignissimos distinctio veritatis
+            optio officiis mollitia incidunt adipisci accusamus tenetur hic?
+            Corrupti, architecto laboriosam.
+          </li>
+          <li>
+            <span class="bold">Freitag 06.05.2022:</span> Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Eum architecto doloremque libero
+            illo iste harum? Doloremque qui ut dicta dolore sunt quis delectus,
+            quia cupiditate iusto enim dolorum ipsam eos.
+          </li>
         </ul>
       </section>
-
-      <hr />
-      <section id="contact">
-        <h2>Contact</h2>
-        <a href="#home" class="button backtotop">Home</a>
-
-        <p>Kontaktinformation und eventuel ein Formular</p>
-        <p>links zu den jeweiligen seiten - twitter xing etc</p>
-        <a href="https://twitter.com/?lang=de" target="blank"
-          ><img src="images/twitter.png" alt=""
-        /></a>
-        <a href="https://de-de.facebook.com/" target="blank"
-          ><img src="fb.png" alt=""
-        /></a>
-        <a href="https://www.xing.com/" target="blank"
-          ><img src="images/xing.png" alt=""
-        /></a>
-        <a href="https://de.linkedin.com" target="blank"
-          ><img src="images/linkedin.png" alt=""
-        /></a>
-        <a href="https://www.instagram.com" target="blank"
-          ><img src="images/instagram.jpg" alt=""
-        /></a>
-        <a href="https://github.com/bensle" target="blank"
-          ><img src="images/github.png" alt=""
-        /></a>
-      </section>
-
-      <hr />
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <a href="#home" class="button backtotop">Home</a>
-        <p>
-          bilder videos links Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Hic, sit! Possimus quia voluptates quam magni!
-          Tempore veniam aperiam, accusamus labore corporis corrupti assumenda
-          a, sunt beatae, ipsum vitae laborum optio. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Saepe placeat maiores debitis sunt
-          architecto, at tempora blanditiis temporibus reiciendis fugiat illo
-          eveniet minus incidunt libero, aperiam, delectus sapiente quis
-          molestias.
-        </p>
-      </section>
-
-      <hr />
-      <section id="blog">
-        <h2>Blog</h2>
-        <a href="#home" class="button backtotop">Home</a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          praesentium officiis sit id aspernatur laborum rerum. Quidem qui
-          delectus id molestiae aut, excepturi eos error reprehenderit vero,
-          corporis, odit blanditiis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Neque laborum eum modi repudiandae nobis error
-          cumque iste non, temporibus vitae sapiente unde eos voluptatum, nulla
-          adipisci natus ab suscipit voluptatem!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quas
-          similique ex amet consequatur, iure harum earum ut nihil labore
-          voluptatem tempore vero, est quasi ea pariatur animi quia laudantium!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facilis
-          nemo illo cum, vitae repellendus molestias officia molestiae est earum
-          ex hic numquam, eos aliquam natus tenetur inventore. Corporis,
-          accusantium?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eligendi
-          velit earum doloribus soluta temporibus deserunt impedit beatae
-          consequatur voluptas laborum modi laudantium ducimus, necessitatibus,
-          a ratione incidunt quo corrupti. Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Animi accusantium dignissimos rerum
-          repellendus repellat, ad eos. Quaerat qui, eos iusto vel enim quasi
-          unde harum, cupiditate deserunt dolor, aliquam perspiciatis!
-        </p>
-      </section>
-      <hr />
     </main>
 
     <footer>
-      <small>Copyright by Benjamin Scheffler</small>
       <a href="#home" class="button">Home</a>
+      <small>Copyright by Benjamin Scheffler</small>
     </footer>
   </body>
 </html>

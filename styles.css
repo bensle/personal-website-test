@@ -1,11 +1,13 @@
 * {
-  background-color: lightgray;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: monospace;
-  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: "Fira Sans", sans-serif;
+  /* font-family: 'Shadows Into Light', cursive; */
   line-height: 1.5;
+  padding: 2rem;
 }
 h1,
 h2,
@@ -15,25 +17,97 @@ h5,
 h6 {
   color: lightseagreen;
   line-height: 1.2;
-  text-align: center;
 }
 
-.button {
-  background-color: lightblue;
-  color: whitesmoke;
+a {
   text-decoration: none;
-  padding: 7px;
-  border-radius: 7px;
+  color: lightseagreen;
 }
-
-img {
-  width: 25px;
-  height: auto;
+a:hover {
+  text-decoration: underline;
 }
 
 .navigation {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.images {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  padding-top: 25px;
+}
+
+/* img {
+  width: 10%;
+} */
+
+/* Sektion: Nav */
+
+.button {
+  background-color: lightblue;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+/* Sektion: About */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sek1para {
+  /* padding: 10px; */
+  border-style: solid;
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+
+/* Sektion: Kontakt */
+
+.bkontakt {
+  height: auto;
+  width: 10px;
+}
+
+.linkimg {
+  width: 8rem;
+}
+
+/* Sektion: Portfolio */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.images2 {
+  width: 45%;
+  max-width: 50%;
+  height: auto;
+  border-style: solid;
+  border-color: whitesmoke;
+  min-width: 50px;
+}
+
+/* Sektion:Blog/News */
+
+.blog {
+}
+
+.bold {
+  font-weight: bold;
 }
