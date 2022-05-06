@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: monospace;
+  font-family: "Fira Sans", sans-serif;
   box-sizing: border-box;
   line-height: 1.5;
 }
@@ -15,17 +15,15 @@ h5,
 h6 {
   color: lightseagreen;
   line-height: 1.2;
-  text-align: center;
 }
 
-.button {
-  background-color: lightblue;
-  color: whitesmoke;
+a {
   text-decoration: none;
-  padding: 7px;
-  border-radius: 7px;
+  color: lightseagreen;
 }
-
+a:hover {
+  text-decoration: underline;
+}
 img {
   width: 25px;
   height: auto;
@@ -35,5 +33,18 @@ img {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+}
+.button {
+  background-color: lightblue;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+#mehead {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
 }
