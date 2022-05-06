@@ -1,11 +1,13 @@
 * {
-  background-color: lightgray;
+  box-sizing: border-box;
 }
 
 body {
+  background-color: lightgray;
   font-family: "Fira Sans", sans-serif;
-  box-sizing: border-box;
+  /* font-family: 'Shadows Into Light', cursive; */
   line-height: 1.5;
+  padding: 2rem;
 }
 h1,
 h2,
@@ -24,10 +26,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-img {
-  width: 25px;
-  height: auto;
-}
 
 .navigation {
   display: flex;
@@ -35,6 +33,27 @@ img {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
+.images {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  padding-top: 25px;
+}
+
+/* img {
+  width: 10%;
+} */
+
+/* Sektion: Nav */
+
 .button {
   background-color: lightblue;
   color: whitesmoke;
@@ -43,8 +62,52 @@ img {
   border-radius: 10px;
 }
 
-.images {
-  width: 100%;
+/* Sektion: About */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sek1para {
+  /* padding: 10px; */
+  border-style: solid;
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+
+/* Sektion: Kontakt */
+
+.bkontakt {
   height: auto;
-  padding-top: 10px;
+  width: 10px;
+}
+
+.linkimg {
+  width: 8rem;
+}
+
+/* Sektion: Portfolio */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.images2 {
+  width: 45%;
+  max-width: 50%;
+  height: auto;
+  border-style: solid;
+  border-color: whitesmoke;
+  min-width: 50px;
+}
+
+/* Sektion:Blog/News */
+
+.blog {
+}
+
+.bold {
+  font-weight: bold;
 }
