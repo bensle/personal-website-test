@@ -10,36 +10,36 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:ital,wght@1,300&family=Shadows+Into+Light&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="styles.css" />
     <title>Benjamin Scheffler - Web Dev Student</title>
   </head>
 
   <body>
-    <header id="home">
-      <h1>Benjamin Scheffler</h1>
-      <nav class="navigation">
-        <a href="#about" class="button">About me</a>
-        <a href="#contact" class="button">Contact</a>
-        <a href="#portfolio" class="button">Portfolio</a>
-        <a href="#vita" class="button">Vita</a>
-        <a href="#blog" class="button">Blog</a>
-      </nav>
+    <header id="home" class="home-container">
+      <!-- <h1>Benjamin Scheffler</h1> -->
+      <div class="header-container">
+        <nav class="navigation">
+          <a href="#about" class="button">About me</a>
+          <a href="#contact" class="button">Contact</a>
+          <a href="#portfolio" class="button">Portfolio</a>
+          <a href="#vita" class="button">Vita</a>
+          <a href="#blog" class="button">Blog</a>
+        </nav>
+        <div>
+          <div class="img-container">
+            <img
+              class="images-mainimg"
+              src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
       <h2 id="about">About me</h2>
       <section class="about">
-        <!-- <p class="sek1para"> -->
-        <img
-          class="images sek1para"
-          src="https://images.unsplash.com/photo-1651761129862-13beec5afece?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-          alt=""
-        />
-        <!-- </p> -->
-
         <p class="sek1para">
           Hallo und herzlich willkommen auf meiner ersten Website. Mein Name ist
           Ben, ich bin 40 Jahre alt und wurde am 20. März 1982 in Ostercappeln
@@ -53,35 +53,36 @@
           2022 startete ich mit dem Web Development Bootcamp von
           <a href="https://neuefische.de">NeueFische</a>.
         </p>
-        <!-- <p>Auf einen Blick</p>
-        <p>
-          <ul>
-            <li>Date of Birth: 20.03.1982</li>
-            <li>City: Köln</li>
-            <li>Geburtsort: Ostercappeln</li>
-            <li>
-              <a href="mailto:scheffler-benjamin@web.de">Send Email</a>
-            </li>
-            <li><a href="tel:+4917682397601">Mobil</a></li>
-          </ul>
-        </p> -->
       </section>
 
       <h2 id="contact">Kontakt</h2>
       <section class="kontakt">
-        <a class="bkontakt" href="https://de.linkedin.com" target="blank"
-          ><img class="linkimg" src="images/LI-Logo.png" alt=""
-        /></a>
-        <a class="bkontakt" href="https://www.xing.com/" target="blank"
-          ><img class="linkimg" src="images/XNG.png" alt=""
-        /></a>
-        <a class="bkontakt" href="https://codepen.io/your-work/" target="blank"
-          ><img class="linkimg" src="images/codepen.png" alt=""
-        /></a>
-
-        <a class="bkontakt" href="https://github.com/bensle" target="blank"
-          ><img class="linkimg" src="images/GitHub-Mark-120px-plus.png" alt=""
-        /></a>
+        <div>
+          <a class="bkontakt" href="https://www.xing.com/" target="blank"
+            ><img class="linkimg" src="images/XNG.png" alt=""
+          /></a>
+        </div>
+        <div>
+          <a class="bkontakt" href="https://github.com/bensle" target="blank"
+            ><img
+              class="linkimg"
+              src="images/GitHub-Mark-120px-plus.png"
+              alt=""
+          /></a>
+        </div>
+        <div>
+          <a class="bkontakt" href="https://de.linkedin.com" target="blank"
+            ><img class="linkimg" src="images/LI-Logo.png" alt=""
+          /></a>
+        </div>
+        <div>
+          <a
+            class="bkontakt"
+            href="https://codepen.io/your-work/"
+            target="blank"
+            ><img class="linkimg" src="images/codepen.png" alt=""
+          /></a>
+        </div>
       </section>
 
       <h2 id="portfolio">Portfolio</h2>
@@ -131,8 +132,42 @@
         />
       </section>
       <h2 id="vita">Vita</h2>
-      <section>
-        <h3>Ausbildung</h3>
+      <h3>Berufserfahrung</h3>
+      <section class="vita">
+        <table class="berfahrung">
+          <thead>
+            <tr class="thead2">
+              <th>Wo</th>
+              <th>Was</th>
+              <th>Jahr</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="ausbort">Mydampf GmbH</td>
+            <td class="abschluss">Leitung Einkauf</td>
+            <td class="abjahr">01/20 - 04/22</td>
+          </tr>
+          <tr>
+            <td class="ausbort">Mydampf GmbH</td>
+            <td class="abschluss">Filialleitung</td>
+            <td class="abjahr">04/18 - 12/19</td>
+          </tr>
+          <td class="ausbort">Stadt Köln</td>
+          <td class="abschluss">Rechtswissenschaftliches Praktikum</td>
+          <td class="abjahr">2017</td>
+          <tr></tr>
+          <tr>
+            <td class="ausbort">Gedigk & Partner</td>
+            <td class="abschluss">Rechtswissenschaftliches Prakrikum</td>
+            <td class="abjahr">2015</td>
+          </tr>
+          <tr>
+            <td class="ausbort">Chr. Eckstein Systemgastronomie</td>
+            <td class="abschluss">stellv. Filialleitung</td>
+            <td class="abjahr">2009 - 2010</td>
+          </tr>
+        </table>
+
         <table class="ausbildung">
           <thead>
             <tr class="thead1">
@@ -141,11 +176,10 @@
               <th>Jahr</th>
             </tr>
           </thead>
-
           <tr>
             <td class="ausbort">Universität zu Köln</td>
             <td class="abschluss">Rechtswissenschaften (ohne Abschluss)</td>
-            <td class="abjahr">2018</td>
+            <td class="abjahr">04/11 - 04/18</td>
           </tr>
           <tr>
             <td class="ausbort">BOS Wirtschaft Osnabrück</td>
@@ -160,7 +194,7 @@
           <tr>
             <td class="ausbort">BVG E.N-Niederste Hollenberg</td>
             <td class="abschluss">Kfm. im Groß- und Außenhandel (IHK)</td>
-            <td class="abjahr">2002</td>
+            <td class="abjahr">1999 - 2002</td>
           </tr>
         </table>
       </section>

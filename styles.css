@@ -5,7 +5,6 @@
 body {
   background-color: lightgray;
   font-family: "Fira Sans", sans-serif;
-  /* font-family: 'Shadows Into Light', cursive; */
   line-height: 1.5;
   padding: 2rem;
 }
@@ -31,7 +30,8 @@ a:hover {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  margin-top: 10px;
+  justify-content: space-between;
 }
 
 .images {
@@ -42,15 +42,36 @@ a:hover {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   padding-top: 25px;
 }
 
-/* img {
-  width: 10%;
-} */
+/* ----------header---------- */
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  flex-grow: 1;
+  gap: 5px;
+  justify-content: flex-start;
+}
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+.img-container {
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+.images-mainimg {
+  max-width: 100%;
+  height: auto;
+}
 
 /* ----------Sektion: Nav---------- */
 
@@ -60,6 +81,7 @@ footer {
   text-decoration: none;
   padding: 7px;
   border-radius: 10px;
+  flex-grow: 1;
 }
 
 /* ----------Sektion: About---------- */
@@ -68,13 +90,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.sek1para {
-  /* padding: 10px; */
-  border-style: solid;
-  border-radius: 10px;
-  border-color: whitesmoke;
 }
 
 /* ----------Sektion: Kontakt---------- */
@@ -87,6 +102,12 @@ footer {
 .linkimg {
   width: 8rem;
 }
+.kontakt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
 
 /* ----------Sektion: Portfolio---------- */
 .portfolio {
@@ -96,17 +117,27 @@ footer {
 }
 .images2 {
   width: 45%;
-  max-width: 50%;
   height: auto;
   border-style: solid;
   border-color: whitesmoke;
   min-width: 50px;
+  flex-grow: 1;
 }
 /* ----------Sektion:Vita---------- */
-/* ----------Ausbilgung---------- */
+
+.vita {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------Ausbildung---------- */
 
 .ausbildung {
-  width: 100%;
+  flex-basis: 100%;
+}
+
+th {
+  text-decoration: underline;
 }
 
 .thead1 {
@@ -114,32 +145,36 @@ footer {
 }
 table,
 td {
-  text-align: center;
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 .ausbort {
   text-align: left;
+  width: 40%;
 }
 .abschluss {
   text-align: left;
+  width: 40%;
 }
 .abjahr {
   text-align: left;
+  width: 20%;
 }
 
 thead {
   border-style: solid;
 }
 
-/* ----------Sektion:Vita---------- */
 /* ----------Berufserf.---------- */
+.berfahrung {
+  flex-basis: 100%;
+}
+.thead2 {
+  text-align: left;
+}
 
 /* ----------Sektion:Blog/News---------- */
-
-/* .blog {
-} */
 
 .bold {
   font-weight: bold;
