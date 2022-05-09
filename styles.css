@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 112.5%;
+}
+
 body {
-  background-color: lightgray;
+  background-color: rgb(112, 115, 115);
   font-family: "Fira Sans", sans-serif;
   line-height: 1.5;
-  /* padding: 2rem; */
+  padding: 2rem;
+  color: white;
 }
 h1,
 h2,
@@ -14,17 +19,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: lightseagreen;
+  color: rgb(255, 255, 255);
   line-height: 1.2;
 }
 
 a {
-  text-decoration: none;
-  color: lightseagreen;
+  color: rgb(255, 255, 255);
 }
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 .navigation {
   display: flex;
@@ -66,7 +70,7 @@ a:hover {
 /* ----------Sektion: Nav---------- */
 
 .button {
-  background-color: lightblue;
+  background-color: rgb(4, 112, 124);
   color: whitesmoke;
   text-decoration: none;
   padding: 7px;
@@ -174,6 +178,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+dt {
+  font-weight: bold;
 }
 footer {
   padding-top: 25px;
