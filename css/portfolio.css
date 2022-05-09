@@ -1,0 +1,13 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.images2 {
+  width: 10%;
+  height: auto;
+  border-style: solid;
+  border-color: whitesmoke;
+  min-width: 200px;
+  flex-grow: 1;
+}

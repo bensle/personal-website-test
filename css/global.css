@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 112.5%;
+}
+
+body {
+  background-color: rgb(112, 115, 115);
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  background-color: rgb(4, 112, 124);
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
