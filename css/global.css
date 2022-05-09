@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: rgb(112, 115, 115);
-  font-family: "Fira Sans", sans-serif;
+  background-color: var(--backround-color);
+  font-family: "Kanit", sans-serif;
   line-height: 1.5;
-  padding: 2rem;
-  color: white;
+  /* padding:2rem; */
+  color: var(--button-text-color);
 }
 
 h1,
@@ -20,20 +20,22 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(255, 255, 255);
+  color: var(--heading-color);
   line-height: 1.2;
+  font-family: "Rock Salt", cursive;
+}
+h1 {
+  text-align: center;
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: var(--heading-color);
 }
 
 .button {
-  background-color: rgb(4, 112, 124);
-  color: whitesmoke;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  border-radius: 5px;
+  padding: 0rem 2rem 0rem 2rem;
   text-decoration: none;
-  padding: 7px;
-  border-radius: 10px;
-  flex-grow: 1;
-  text-align: center;
 }

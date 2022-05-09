@@ -1,6 +1,12 @@
 .navigation {
   display: flex;
-  gap: 8px;
   flex-wrap: wrap;
-  margin-top: 10px;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+nav {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.5rem;
 }
