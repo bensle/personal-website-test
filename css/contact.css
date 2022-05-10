@@ -1,0 +1,14 @@
+.bkontakt {
+  height: auto;
+  width: 10px;
+}
+
+.linkimg {
+  width: 8rem;
+}
+.kontakt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
